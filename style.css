@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Dosis:400,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Dosis:300,400,600,700,800');
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
@@ -480,6 +480,17 @@ a {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 140%;
+	text-transform: none;
+	transform: translateY(55px);
+	transition: all 0.5s;
+	margin-bottom: 20px;
+}
+
+.sub-title-text {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 160%;
 	text-transform: none;
 	transform: translateY(55px);
 	transition: all 0.5s;
