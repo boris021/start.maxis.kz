@@ -1,8 +1,11 @@
 var swiper = new Swiper('.product-slider', {
 	spaceBetween: 30,
 	effect: 'fade',
-	// initialSlide: 2,
-	loop: true,
+	initialSlide: 2,
+	autoplay: {
+		delay: 7000,
+		loop: true,
+	},
 	navigation: {
 		nextEl: '.next',
 		prevEl: '.prev'
