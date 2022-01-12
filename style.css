@@ -918,8 +918,8 @@ a {
 
 .search {
 	position: absolute;
-	left: 50%;
-	transform: translate(-50%);
+	left: 60%;
+	transform: translate(-60%);
 	top: 3%;
 	width: 60%;
 	height: 100%;
