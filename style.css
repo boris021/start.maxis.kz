@@ -909,3 +909,30 @@ a {
 	width: 24px;
 	margin-right: 15px;
 }
+
+/* поиск */
+.gsc-search-box {
+	padding: 10px;
+	background: #f0f0f014;
+}
+
+.search {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	top: 3%;
+	width: 60%;
+	height: 100%;
+	z-index: 999;
+	border-radius: 50%;
+}
+
+@media (max-width:640px) {
+	.search {
+		left: 50%;
+		transform: translate(-50%);
+		top: 3%;
+		width: 100%;
+		height: 1%;
+	}
+}
